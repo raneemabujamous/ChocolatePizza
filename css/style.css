@@ -46,6 +46,11 @@ main img{
 form{
     display: grid;
 grid-template-columns: auto auto;
+      }
+ul{
+    position: absolute;
+    bottom:  -75%;
+    z-index: 1;
 }
 li{
     list-style: none;
@@ -53,12 +58,7 @@ li{
 }
 
 
-form{
-    position: absolute;
-    top: 140%;
-    font-size: 20px;
-   
-}
+
 .throw{
 text-decoration: line-through;
 }
@@ -88,4 +88,21 @@ button{
     float: right;
     width: 150px;
     height: 50px;
+}
+.img3{
+padding-right: 10px;
+
+}
+.finalimg{
+    display: block;
+  margin-left: 45%;
+  margin-right: 55%;
+  
+}
+.end p{
+text-transform: capitalize;
+text-align: center;
+}
+.left{
+margin-left: 500px;
 }
